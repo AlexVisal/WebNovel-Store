@@ -66,12 +66,20 @@ nav .nav-links a.selected{
     justify-content: center;
     gap: 50px;
     height: calc(100vh - 80px);
+    
 }
 
 .main .info h1{
     font-size: 44px;
-    margin-bottom: 40px;
 }
+
+.main .info h2{
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: crimson;
+    text-align: right;
+}
+
 
 .main .info p{
     font-size: 20px;
