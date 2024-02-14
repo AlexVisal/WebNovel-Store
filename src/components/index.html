@@ -14,7 +14,7 @@
 <nav>
     <div class="logo">
         <img src="../assets/logo.png">
-        <a href="#">WebReader</a>
+        <a href="#">Web Novel</a>
     </div>
     <div class="nav-links">
         <a class="selected" href="index.html">Home</a>
@@ -70,17 +70,34 @@
     </div>
 </div>
 
-<div class="weekly-feature">
-    <div class="header">
-        <h2>New Arrival</h2>
-        <a href="collection.html">View Collection</a>
-    </div>
-    <div class="book-banner">
-        <div class="weekly-1">
-            <img src="../assets/tbate.png">
-        </div>
-    </div>
+
+
+<div class="weekly-feature-header">
+    <h2>Weekly Feature</h2>
+    <a href="collection.html">View Collection</a>
 </div>
 
+<div class="slider">
+    <img id="img-1" src="../assets/lom_banner.png"/>
+    <img id="img-2" src="../assets/ranker_banner.png"/>
+    <img id="img-3" src="../assets/tbate_banner.png"/>
+</div>
+<div class="navigation-button">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+</div>
+
+<footer>
+    <div class="socials">
+        <i class='bx bxl-facebook-square'></i>
+        <i class='bx bxl-instagram' ></i>
+        <i class='bx bxl-twitter' ></i>
+        <i class='bx bxl-youtube' ></i>
+    </div>
+    <p>Copyright ⓒ2024, All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
