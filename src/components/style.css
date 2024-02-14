@@ -103,7 +103,7 @@ nav .nav-links a.selected{
     padding: 10px 30px;
     background: #3e3e3e;
     border: none;
-    color: #fff;
+    color: seashell;
     font-size: 16px;
     border-radius: 12px;
     cursor: pointer;
@@ -134,7 +134,7 @@ nav .nav-links a.selected{
 }
 
 .newArrival .header h4{
-    font-size: 4px;
+    font-size: 40px;
     font-weight: 400;
     color: seashell;
 }
@@ -189,30 +189,40 @@ nav .nav-links a.selected{
 }
 
 .weekly-feature-header{
-    padding-top: 125px;
-    padding-bottom: 75px;
+    padding: 60px 148px;
     background-color: #d6e5e3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .weekly-feature-header h2{
-    text-align: center;
     border: 1px solid transparent;
     border-radius: 40px;
     background-color: #0c0910;
-    color: #d6e5e3; 
+    color: seashell; 
+    padding: 10px 20px 10px 20px;
+    margin-left: 41%;
+}
+
+.weekly-feature-header a{
+    padding-top: 50px;
+    
 }
 
 .slider {
     width: 100%;
     height: 510px;
     position: relative;
-    background-color: #d6e5e3;
-    
+    background-color: #0c0910;
+    box-shadow: none;
+
 }
 
 .slider img {
     width: 100%;
-    height: 500px;
+    height: 100%;
     position: absolute;
     object-fit: contain;
     top: 0;
@@ -247,6 +257,67 @@ nav .nav-links a.selected{
 .active,
 .dot:hover {
   background-color: #717171;
+}
+
+.featured{
+    padding: 40px 290px 10px;
+    background-color: #d6e5e3;
+}
+
+.featured .item{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.featured .item img{
+    width: 320px;
+    height: 80%;
+    border-radius: 6px;
+}
+
+.featured .item .details h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.featured .item .details .novel-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.featured .item .details .novel-info .price-badge{
+    background-color: #303f9f;
+    padding: 2px 14px;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.featured .item .details p{
+    width: 700px;
+    text-align: justify;
+    
+}
+
+.featured .item .details .button-holder{
+    float: right;
+}
+
+.featured .item .details .button-holder button{
+    padding: 5px 15px;
+    background: #3e3e3e;
+    border: none;
+    color: seashell;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
 footer{
