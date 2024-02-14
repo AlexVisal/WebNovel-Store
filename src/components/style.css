@@ -134,7 +134,7 @@ nav .nav-links a.selected{
 }
 
 .newArrival .header h4{
-    font-size: 44px;
+    font-size: 4px;
     font-weight: 400;
     color: seashell;
 }
@@ -276,5 +276,5 @@ footer .socials i:hover{
 
 footer p{
     font-size: 14px;
-    color: #d6e5e3;
+    color: seashell;
 }
