@@ -275,7 +275,7 @@ nav .nav-links a.selected{
 .featured .item img{
     width: 320px;
     height: 80%;
-    border-radius: 6px;
+    border-radius: 40px;
 }
 
 .featured .item .details h3{
