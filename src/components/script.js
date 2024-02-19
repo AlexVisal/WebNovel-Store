@@ -1,10 +1,10 @@
-var imgs = document.querySelectorAll('.slider img');
-var dots = document.querySelectorAll('.dot');
-var currentImg = 0; // index of the first image 
+const imgs = document.querySelectorAll('.slider img');
+const dots = document.querySelectorAll('.dot');
+let currentImg = 0; // index of the first image 
 const interval = 3000; // duration(speed) of the slide
 
 function changeSlide(n) {
-    for (var i = 0; i < imgs.length; i++) { // reset
+    for (let i = 0; i < imgs.length; i++) { // reset
       imgs[i].style.opacity = 0;
       dots[i].className = dots[i].className.replace(' active', '');
     }
@@ -21,4 +21,4 @@ function changeSlide(n) {
     dots[currentImg].className += ' active';
 }
 
-var timer = setInterval(changeSlide, interval);
+let timer = setInterval(changeSlide, interval);
